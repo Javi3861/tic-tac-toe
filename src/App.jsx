@@ -7,7 +7,6 @@ const TURNS = {
 }
 
 
-
 const Square = ({ children, isSelected, updateBoard, index}) => {
   const className = `square ${isSelected ? 'is-selected' : ''}`
 
@@ -90,6 +89,7 @@ function App() {
   }
 
 
+  
   return (
     <main className="board">
       <h1>Tic Tac Toe</h1>
